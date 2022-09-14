@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      scr="https://cdnjs.cloudflare.com/ajax/libs/axios/1.0.0-alpha.1/axios.min.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Fetch User</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-tab">
+        <div class="left-tab__yourName">
+          <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="" />
+          <p>Your Name</p>
+        </div>
+        <div class="left-tab__searchBar">
+          <div>
+            <div>search</div>
+            <input type="text" placeholder="Search your friend" />
+          </div>
+        </div>
+        <div class="left-tab__userList" id="userList"></div>
+      </div>
+      <div class="right-tab"></div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
